@@ -3,7 +3,7 @@
 #include<conio.h>
 #include<windows.h>
 #include<time.h>
-#define random(x,y) (rand()%28-1)
+#define random(x,y) (rand()%28+1)
 
 using namespace std;
 const char *graph[30][30];
